@@ -1,0 +1,30 @@
+{
+  "name": "typescript_veebipood",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.2.2",
+    "@nestjs/config": "^3.0.0",
+    "@nestjs/core": "^10.2.2",
+    "@nestjs/microservices": "^10.2.2",
+    "@nestjs/platform-express": "^10.2.2",
+    "@nestjs/typeorm": "^10.0.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.32.1",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
